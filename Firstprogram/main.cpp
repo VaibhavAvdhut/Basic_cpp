@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std ;
 int main () {
-cout << "Starting DSA with love babbar!! "<< endl ;
+cout << "Namaste Duniya"<< endl ;
 return 0 ;
 
 }
