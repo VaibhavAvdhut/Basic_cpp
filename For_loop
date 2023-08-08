@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int n ;
+int sum = 0 ;
+cout<<"Enter the value of n : " << endl ;
+cin >> n ;
+for (int i  = 1 ;i <= n ; i ++ ) {
+    cout<< i << endl;
+}
+cout<< "Finding the sum of 1 to n numbers : "<< endl;
+for ( int i = 1 ; i<=n ; i++){
+sum+=i ;
+}
+cout<< sum << endl ;
+int b  , c , d ;
+for (b = 3 , c = 4 , d = 5 ; b<=4 && c <= 5  && d <= 6 ; c++ , d++ , b ++  ){
+    cout<< b << " " <<" " << c <<" " << d << endl ;
+}
+
+}
