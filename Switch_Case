@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int num ;
+cin >> num ;
+switch  (num){
+case 1 : cout<< "first Job" << endl ;
+        break ;
+
+case 2 : cout << "Promotio "<< endl ;
+        break ;
+
+case 3 : cout << "Increment " << endl ;
+       break ;
+
+default  : cout << "Setteled " << endl ;
+        break ;
+
+return 0 ;
+  }
+}
