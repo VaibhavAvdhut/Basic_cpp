@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std ;
+int main () {
+int  a = 55 ; // a is of int type
+cout << a << endl;
+
+char  b = 'v' ;     // you can give only single character in th char
+cout << b << endl;
+bool  c  = true ;
+// c is of boolean type
+cout << c << endl ;
+double d = 945.39465723745;
+cout << d << endl ;
+float e = 1236.2673546;
+cout << e << endl ;
+cout <<  "size of a which is integer  is "<< sizeof(a) << endl ;
+cout <<  "size of b who is char  is : " <<   sizeof(b)   << endl ;
+cout <<  "size of c which is bool  is "<< sizeof(c) << endl ;
+cout <<  "size of d which is double is "<< sizeof(d) << endl ;
+cout <<  "size of e which is float  is "<< sizeof(e) << endl ;
+
+return 0 ;
+}
