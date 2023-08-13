@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+// It is a simple Function .. 
+// Format is 
+// Written_Type(int)  Function_Name(calculator)   constraints(num1 and num 2 ) 
+int calculator(int num1 , int num2 ){
+cout << "Function Called .." << endl ;
+cout << "Addition : " << num1 + num2 << endl ;
+cout << "Subtrction : " << num1 - num2 << endl ;
+cout << "Multiplication : " << num1 * num2 << endl ;
+cout << "Division  : " <<num1 % num2 << endl ;
+}
+
+int main()
+{
+int A , B ;
+cout << "Enter the Value of A :" << endl ;
+cin >> A ;
+cout << "Enter the Value of  B:" << endl ;
+cin >> B ;
+cout << "Calling the Function " << endl ;
+calculator(A , B);
+
+}
+
+
+
+
+}
+
+
