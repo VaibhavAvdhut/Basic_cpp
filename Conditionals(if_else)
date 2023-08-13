@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A ;
+    int B ;
+    cout << "Enter the Value of A :" << endl ;
+    cin >> A ;
+    cout << "Enter the Value of B:" << endl ;
+    cin >> B ;
+    cout << "  " << endl;
+    if (A>B){
+        // This Code Executes if condition in "if" block is True .
+        cout<< A  << "  is greater " << endl ;
+
+    }
+    else {
+        // this Code Executes if the condition ini if block is False .
+        cout << B <<  "is greater "<< endl ;
+
+    }
+
+    return 0;
+}
