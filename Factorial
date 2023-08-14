@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+// Initialize the fact = 1 
+    int fact = 1 ; 
+    int n ; 
+// Taking input from user 
+cout << "Enter the Value of n " << endl ; 
+    cin >> n ;
+    if(n<0){
+        cout << "Error" ; 
+    }
+    if(n==0){
+        fact = 1 ; 
+    }
+    for(int i = 1 ; i<=n ; i++){
+        fact = fact*i ; 
+
+    }
+    cout << fact ; 
+}
