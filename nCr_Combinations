@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+int Factorial(int n){
+int fact = 1 ;
+for(int i = 1 ; i<=n ; i++){
+    fact = fact * i ;
+}
+return fact ;
+
+
+}
+int main()
+{
+int n , r ;
+cout<<"Enter the Value of n : " << endl ;
+cin>>n ;
+int numerator = Factorial(n) ;
+cout<<"Enter value of r : " << endl ;
+cin>>r ;
+int denominator = Factorial(r)*Factorial(n-r) ;
+int ans = numerator /denominator ;
+cout<< ans << endl ;
+}
