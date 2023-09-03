@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std ;
+int main () {
+int a = 2734.14;
+cout << "Value of a " << a << endl ;
+float b = 7346.83465  ;
+cout <<  b << endl ;             
+int c = 'a';
+cout << c << endl ;                  // a is asssigned with 97 so char is casted into the int type
+char  d  = 99  ;                 
+cout <<"99 : "<<  d << endl ;                   // 99 is assigned to c so it is typecasted in char
+int e = -8 ;            
+cout << e << endl ;
+int f = 'z';
+cout << f << endl ;
+return 0 ;
+
+}
